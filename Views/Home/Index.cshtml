@@ -1,0 +1,172 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@*Introduction Section with Image and Basic Info*@
+   
+ 
+        
+
+        <div class="row container">
+
+            <div class="col-lg-4 col-md-6 col-sm-1">
+
+                <img src="~/Images/mehtab.jpg" class="imageCustom mt-3 bg-danger " />
+
+            </div>
+
+            <div class="col-lg-8 col-md-6 col-sm-1 mt-3 jumbotron bg-myback">
+                <p class="h2" style="color:white;font-weight:bold;font-size:50px;">Mehtab Ahmed</p>
+                <p class="lead text-white"> Junior Frontend, Junior .Net Developer</p>
+
+                <i class="fa fa-envelope-o text-white"> </i>  <b class="text-white font-italic">Email</b>
+
+                <p class="text-white">ahmedmehtab176@gmail.com</p>
+                <i class="fa fa-phone text-white"> </i>  <b class="text-white font-italic">Phone</b>
+
+                <p class="text-white">+49 1521 4665217</p>
+
+                <i class="fa fa-home text-white"> </i>  <b class="text-white font-italic">Address</b>
+
+                <p class="text-white">@@top Studieren und Wohnen, Bahnhofstraße 47, 94469 Deggendorf</p>
+
+
+                <a href=""> <i class="fa fa-github-square fa-3x text-white p-3"></i></a>
+                <a href="https://www.linkedin.com/in/mehtabahmed1993" target="_blank"><i class="fa fa-linkedin-square fa-3x text-white p-3"></i></a>
+                <a href="https://www.facebook.com/mehtab.ahmed.108889" target="_blank"> <i class="fa fa-facebook-square fa-3x text-white p-3"></i></a>
+
+
+
+            </div>
+
+        </div>
+
+      
+
+        @*End of Introduction*@
+
+
+
+
+
+<div class="jumbotron bg-myback text-white">
+
+    <p class="">
+
+        I am Junior Web developer able to build Frontend with HTML, CSS, Bootstrap and Javascript etc. Besides, I have good skills in Databases, Linux,Wordpress, Magento and familiar with trending technologies in the market.
+
+    </p>
+
+    <form action="/Home/DownloadCV" method="post">
+        <button type="submit" class="btn btn-outline-warning"> <i class="fa fa-download"></i>Download English CV</button>
+
+        
+    </form>
+
+   
+    @* <button type="button" class="btn btn-outline-warning float-right"><i class="fa fa-download"></i>Herunterladen Deutscher Lebenslauf</button> *@
+</div>
+
+        @*End of Download Section*@
+
+
+        @*Start Education a section*@
+
+
+        <div class="">
+
+            <div class="row text-left ">
+                <div class="col-9 ">
+                    <p class="h3">Education</p>
+                    <hr />
+                    <ul class="timeline customTextcolor">
+                        <li class="">
+                            <a target="_blank" href="https://www.th-deg.de/en/et-mt-en/courses/ai-m-en" class="lead customTextcolor"><b>Deggendorf University of Technology, Germany</b></a>
+                            <a class="float-right customTextcolor">March 2019</a>
+                            <p>-Master of Science in Applied Computer Science</p>
+                        </li>
+                        <li>
+                            <a href="https://www.giki.edu.pk/Faculties/FCSE/#" class="lead customTextcolor"><b>GIK Institute of Engineering Sciences and Technology Topi ,Pakistan</b></a>
+                            <a href="#" class="float-right customTextcolor">2012 – 2016</a>
+                            <p>-Bachelor of Science in Computer Engineering</p>
+                        </li>
+                        <li>
+                            <a href="https://www.edwardes.edu.pk/" class="lead customTextcolor"><b>Edwardes College Peshawar,Pakistan</b></a>
+                            <a href="#" class="float-right customTextcolor">2010 – 2012</a>
+                            <p>-Pre Engineering </p>
+                        </li>
+
+                    </ul>
+                    @* <hr style="border-width:2px"/>*@
+                </div>
+            </div>
+        </div>
+
+
+
+
+        @*End of Education section*@
+
+        @*Start of Professional career section*@
+<div class="jumbotron bg-myback text-white mt-3">
+    <p class="h2 ">Professional Career</p>
+    <hr style="border-width:1px;border-color:white" />
+
+    <dl>
+        <dt class="lead font-weight-bold">Software Engineer at Precise Technologies</dt>
+        <dd>Period: 28 February 2017-02 April 2017</dd>
+        <dd>
+            Location: Peshawar, Pakistan
+        </dd>
+        <dd>
+            I have worked as Internee Asp.Net MVC developer at Precise Technologies.
+            Precise Technologies is product and project based company which deals with new clients as well as provides 24/7 support to existing clients.
+        </dd>
+
+    </dl>
+
+
+    <dl>
+        <dt class="lead font-weight-bold">Visiting lecturer at Federal Urdu University of Arts, Science & Technology, Islamabad Pakistan</dt>
+        <dd>Period: 06 March 2017-May 2017</dd>
+        <dd>
+            Location: Islamabad, Pakistan
+        </dd>
+        <dd>
+            I taught Web Programming at Federal Urdu University as visiting lecturer to the final year students of computer science.
+        </dd>
+
+    </dl>
+
+    <dl>
+        <dt class="lead font-weight-bold">Internship,VR Islamabad, Pakistan</dt>
+        <dd>05 May 2015 – 30 June 2015</dd>
+        <dd>
+            Location: Islamabad, Pakistan
+        </dd>
+        <dd>
+            I have worked as internee C# developer at Value Resources. Value Resources is product and project based Software company which deals with
+            new clients as well as provides 24/7 support to existing clients.
+            I was in project team who develop software system for new clients according to their requirements.
+        </dd>
+
+    </dl>
+
+
+
+
+</div>
+
+        @*End of Professional career section*@
+        @Html.Partial("Skills")
+
+        @Html.Partial("ProfessionalProjects")
+
+
+
+      
+
+
+
+

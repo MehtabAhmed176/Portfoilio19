@@ -1,0 +1,140 @@
+﻿body {
+    /* padding-top: 50px;
+    padding-bottom: 20px;*/
+    background-color: #f1f9eb;
+}
+
+/* Set padding to keep content from hitting the edges */
+    .body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*My Customised Navigation Bar item*/
+.CustNavBar {
+    background-color: #343a40;
+}
+.myfontcus{
+    color:white !important;
+   font-size:20px;
+  
+}
+
+/*My Customised Navigation Bar item*/
+.mycustNavBrand {
+   
+    color: #bc934c !important;
+    font-size: 53px;
+    font-weight: bold;
+    padding-top: 49px !important;
+}
+a1:hover {
+    background-color: yellow;
+}
+.CustomHeightNav {
+    height: 60px !important;
+}
+.afternavarea{
+    height:50px;
+}
+.imageCustom {
+    height: 240px;
+    border-radius: 50%;
+}
+.bg-myback {
+    background-color: #143b45 !important;
+}
+
+.cover-image {
+    background-image: url('../Images/markus-spiske-357131-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    
+}
+
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+    ul.timeline:before {
+        content: ' ';
+        background: #143b45;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 2px;
+        height: 100%;
+        z-index: 400;
+    }
+
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+        ul.timeline > li:before {
+            content: ' ';
+            background: white;
+            display: inline-block;
+            position: absolute;
+            border-radius: 50%;
+            border: 3px solid #2c7689;
+            left: 20px;
+            width: 20px;
+            height: 20px;
+            z-index: 400;
+        }
+
+.customTextcolor{
+    color:black !important;
+}
+.SliderHeight {
+    height:391px;
+}
+
+
+/*@* Link Hoverover 
+
+
+.linkhover:hover {
+    font-weight: bold;
+    color: white !important;
+    background-color: #143b45;
+    font-size: 30px;
+    font-family:'Leelawadee UI';
+}
+*@*/
+.titlecus{
+
+  
+
+
+}
+#mycusttitle {
+    color: white;
+   
+}
+
+
+.bg-matching {
+   background-color: #143b45 !important
+}
